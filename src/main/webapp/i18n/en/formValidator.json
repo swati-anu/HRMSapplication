@@ -1,0 +1,31 @@
+{
+  "hrmsApplicationApp": {
+    "formValidator": {
+      "home": {
+        "title": "Form Validators",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Form Validator",
+        "createOrEditLabel": "Create or edit a Form Validator",
+        "notFound": "No Form Validators found"
+      },
+      "created": "A new Form Validator is created with identifier {{ param }}",
+      "updated": "A Form Validator is updated with identifier {{ param }}",
+      "deleted": "A Form Validator is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Form Validator {{ id }}?"
+      },
+      "detail": {
+        "title": "Form Validator"
+      },
+      "id": "ID",
+      "type": "Type",
+      "value": "Value",
+      "formName": "Form Name",
+      "fieldName": "Field Name",
+      "companyId": "Company Id",
+      "status": "Status",
+      "lastModified": "Last Modified",
+      "lastModifiedBy": "Last Modified By"
+    }
+  }
+}

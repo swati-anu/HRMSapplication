@@ -1,0 +1,48 @@
+{
+  "applications": "*",
+  "changelogDate": "20230512141257",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "tds",
+  "fields": [
+    {
+      "fieldName": "salaryFrom",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "salaryTo",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "percentage",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "salarySettingId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "companyId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "lastModified",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "lastModifiedBy",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "Tds",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceClass"
+}

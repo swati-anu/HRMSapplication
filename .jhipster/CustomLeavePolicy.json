@@ -1,0 +1,51 @@
+{
+  "applications": "*",
+  "changelogDate": "20230512141302",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "custom_leave_policy",
+  "fields": [
+    {
+      "fieldName": "customPolicyName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "days",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "companyId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "lastModified",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "lastModifiedBy",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "CustomLeavePolicy",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "leavePolicy",
+      "relationshipName": "leavePolicy",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "employee",
+      "relationshipName": "employee",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "serviceClass"
+}

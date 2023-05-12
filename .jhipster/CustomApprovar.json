@@ -1,0 +1,44 @@
+{
+  "applications": "*",
+  "changelogDate": "20230512141307",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "custom_approvar",
+  "fields": [
+    {
+      "fieldName": "employeId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "approvalSettingId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "squence",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "companyId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "lastModified",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "lastModifiedBy",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "CustomApprovar",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceClass"
+}

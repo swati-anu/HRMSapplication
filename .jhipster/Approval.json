@@ -1,0 +1,52 @@
+{
+  "applications": "*",
+  "changelogDate": "20230512141324",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "approval",
+  "fields": [
+    {
+      "fieldName": "refTable",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "refTableId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "approverEmployeeId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "approvalStatus",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "sequence",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "companyId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "lastModified",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "lastModifiedBy",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "Approval",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceClass"
+}

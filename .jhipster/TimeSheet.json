@@ -1,0 +1,50 @@
+{
+  "applications": "*",
+  "changelogDate": "20230512141312",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "time_sheet",
+  "fields": [
+    {
+      "fieldName": "time",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "date",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "hasCheckedIn",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "companyId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "lastModified",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "lastModifiedBy",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "TimeSheet",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "attendance",
+      "relationshipName": "attendance",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "serviceClass"
+}

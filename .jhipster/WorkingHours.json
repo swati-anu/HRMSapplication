@@ -1,0 +1,48 @@
+{
+  "applications": "*",
+  "changelogDate": "20230512141309",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "working_hours",
+  "fields": [
+    {
+      "fieldName": "noOfHours",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "employmentTypeId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "refTable",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "refTableId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "companyId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "lastModified",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "lastModifiedBy",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "WorkingHours",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceClass"
+}

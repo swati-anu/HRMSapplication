@@ -1,0 +1,64 @@
+{
+  "applications": "*",
+  "changelogDate": "20230512141315",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "asset_application",
+  "fields": [
+    {
+      "fieldName": "assetId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "assetype",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "quantity",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "reqStatus",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "applyDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "assginDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "employeeId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "companyId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "lastModified",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "lastModifiedBy",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "AssetApplication",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceClass"
+}

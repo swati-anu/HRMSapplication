@@ -1,0 +1,104 @@
+{
+  "applications": "*",
+  "changelogDate": "20230512141314",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "asset_inventory",
+  "fields": [
+    {
+      "fieldName": "assetName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "assetype",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "assetId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "purchaseFrom",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "purchaseTo",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "manufacturer",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "model",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "productNumber",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "supplier",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "warrantyInMonths",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "condition",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "value",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "assetStatus",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "assetUserId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "submittedAmt",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "refundAmt",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "fineAmt",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "companyId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "lastModified",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "lastModifiedBy",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "AssetInventory",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceClass"
+}

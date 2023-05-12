@@ -1,0 +1,60 @@
+{
+  "applications": "*",
+  "changelogDate": "20230512141249",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "pf_details",
+  "fields": [
+    {
+      "fieldName": "isPfContribution",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "pfNumber",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "pfRate",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "additionalPfRate",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "totalPfRate",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "employeeId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "reEnumerationId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "companyId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "lastModified",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "lastModifiedBy",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "PfDetails",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceClass"
+}

@@ -1,0 +1,62 @@
+<div class="d-flex justify-content-center">
+  <div class="col-8">
+    <div *ngIf="formValidator">
+      <h2 data-cy="formValidatorDetailsHeading">
+        <span jhiTranslate="hrmsApplicationApp.formValidator.detail.title">Form Validator</span>
+      </h2>
+
+      <hr />
+
+      <jhi-alert-error></jhi-alert-error>
+
+      <jhi-alert></jhi-alert>
+
+      <dl class="row-md jh-entity-details">
+        <dt><span jhiTranslate="global.field.id">ID</span></dt>
+        <dd>
+          <span>{{ formValidator.id }}</span>
+        </dd>
+        <dt><span jhiTranslate="hrmsApplicationApp.formValidator.type">Type</span></dt>
+        <dd>
+          <span>{{ formValidator.type }}</span>
+        </dd>
+        <dt><span jhiTranslate="hrmsApplicationApp.formValidator.value">Value</span></dt>
+        <dd>
+          <span>{{ formValidator.value }}</span>
+        </dd>
+        <dt><span jhiTranslate="hrmsApplicationApp.formValidator.formName">Form Name</span></dt>
+        <dd>
+          <span>{{ formValidator.formName }}</span>
+        </dd>
+        <dt><span jhiTranslate="hrmsApplicationApp.formValidator.fieldName">Field Name</span></dt>
+        <dd>
+          <span>{{ formValidator.fieldName }}</span>
+        </dd>
+        <dt><span jhiTranslate="hrmsApplicationApp.formValidator.companyId">Company Id</span></dt>
+        <dd>
+          <span>{{ formValidator.companyId }}</span>
+        </dd>
+        <dt><span jhiTranslate="hrmsApplicationApp.formValidator.status">Status</span></dt>
+        <dd>
+          <span>{{ formValidator.status }}</span>
+        </dd>
+        <dt><span jhiTranslate="hrmsApplicationApp.formValidator.lastModified">Last Modified</span></dt>
+        <dd>
+          <span>{{ formValidator.lastModified | formatMediumDatetime }}</span>
+        </dd>
+        <dt><span jhiTranslate="hrmsApplicationApp.formValidator.lastModifiedBy">Last Modified By</span></dt>
+        <dd>
+          <span>{{ formValidator.lastModifiedBy }}</span>
+        </dd>
+      </dl>
+
+      <button type="submit" (click)="previousState()" class="btn btn-info" data-cy="entityDetailsBackButton">
+        <fa-icon icon="arrow-left"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back">Back</span>
+      </button>
+
+      <button type="button" [routerLink]="['/form-validator', formValidator.id, 'edit']" class="btn btn-primary">
+        <fa-icon icon="pencil-alt"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit">Edit</span>
+      </button>
+    </div>
+  </div>
+</div>
