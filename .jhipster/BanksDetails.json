@@ -1,0 +1,68 @@
+{
+  "applications": "*",
+  "changelogDate": "20230512141245",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "banks_details",
+  "fields": [
+    {
+      "fieldName": "accountNumber",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "bankName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "branchTransCode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "taxNumber",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "gstin",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "tan",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "branchName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "refTable",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "refTableId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "companyId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "lastModified",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "lastModifiedBy",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "BanksDetails",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceClass"
+}

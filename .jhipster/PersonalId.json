@@ -1,0 +1,60 @@
+{
+  "applications": "*",
+  "changelogDate": "20230512141241",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "personal_id",
+  "fields": [
+    {
+      "fieldName": "type",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "number",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "issueDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "expDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "issuingAuthority",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "docUrl",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "employeeId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "companyId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "lastModified",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "lastModifiedBy",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "PersonalId",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceClass"
+}

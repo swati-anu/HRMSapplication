@@ -1,0 +1,52 @@
+{
+  "applications": "*",
+  "changelogDate": "20230512141300",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "leave_type",
+  "fields": [
+    {
+      "fieldName": "leaveType",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "noOfDays",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "hasCarryForward",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "hasEarned",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "hasCustomPolicy",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "companyId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "lastModified",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "lastModifiedBy",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "LeaveType",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceClass"
+}

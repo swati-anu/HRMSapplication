@@ -1,0 +1,48 @@
+{
+  "applications": "*",
+  "changelogDate": "20230512141248",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "remuneration",
+  "fields": [
+    {
+      "fieldName": "salaryType",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "amount",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "paymentType",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "employeeId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "companyId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "lastModified",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "lastModifiedBy",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "Remuneration",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceClass"
+}

@@ -1,0 +1,48 @@
+{
+  "applications": "*",
+  "changelogDate": "20230512141303",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "holiday",
+  "fields": [
+    {
+      "fieldName": "holidayName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "holidayDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "day",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "year",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "companyId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "lastModified",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "lastModifiedBy",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "Holiday",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceClass"
+}

@@ -1,0 +1,60 @@
+{
+  "applications": "*",
+  "changelogDate": "20230512141323",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "termination",
+  "fields": [
+    {
+      "fieldName": "empName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "terminationType",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "terminationDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "noticeDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "reason",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "departmentId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "employeeId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "companyId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "lastModified",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "lastModifiedBy",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "Termination",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceClass"
+}

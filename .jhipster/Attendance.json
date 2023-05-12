@@ -1,0 +1,64 @@
+{
+  "applications": "*",
+  "changelogDate": "20230512141311",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "attendance",
+  "fields": [
+    {
+      "fieldName": "deviceInfo",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "latitude",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "longitude",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "date",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "day",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "hours",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "employeeId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "hasCheckedIn",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "companyId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "lastModified",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "lastModifiedBy",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "Attendance",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceClass"
+}

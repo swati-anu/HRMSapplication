@@ -1,0 +1,64 @@
+{
+  "applications": "*",
+  "changelogDate": "20230512141313",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "document",
+  "fields": [
+    {
+      "fieldName": "docType",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "docCategory",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "fileName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "contentType",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "fileUuid",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "folderUuid",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "refTable",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "refTableId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "companyId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "lastModified",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "lastModifiedBy",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "Document",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceClass"
+}

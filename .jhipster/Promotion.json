@@ -1,0 +1,60 @@
+{
+  "applications": "*",
+  "changelogDate": "20230512141321",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "promotion",
+  "fields": [
+    {
+      "fieldName": "promotionFor",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "promotedFrom",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "promotedTo",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "promotiedDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "branchId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "departmentId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "employeeId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "companyId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "lastModified",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "lastModifiedBy",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "Promotion",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceClass"
+}

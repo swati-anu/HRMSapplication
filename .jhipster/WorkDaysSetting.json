@@ -1,0 +1,44 @@
+{
+  "applications": "*",
+  "changelogDate": "20230512141304",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "work_days_setting",
+  "fields": [
+    {
+      "fieldName": "day",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "hours",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dayOff",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "companyId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "lastModified",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "lastModifiedBy",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "WorkDaysSetting",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceClass"
+}

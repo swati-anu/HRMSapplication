@@ -1,0 +1,64 @@
+{
+  "applications": "*",
+  "changelogDate": "20230512141322",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "resignation",
+  "fields": [
+    {
+      "fieldName": "empName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "resignDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "noticePeriodIndays",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "reason",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "resignStatus",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "lastWorkingDay",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "departmentId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "employeeId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "companyId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "lastModified",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "lastModifiedBy",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "Resignation",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceClass"
+}

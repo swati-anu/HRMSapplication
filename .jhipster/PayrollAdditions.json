@@ -1,0 +1,56 @@
+{
+  "applications": "*",
+  "changelogDate": "20230512141318",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "payroll_additions",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "category",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "hasUnitCal",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "unitAmount",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "assignType",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "employeeId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "companyId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "lastModified",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "lastModifiedBy",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "PayrollAdditions",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceClass"
+}

@@ -1,0 +1,64 @@
+<div class="d-flex justify-content-center">
+  <div class="col-8">
+    <div *ngIf="masterLookup">
+      <h2 data-cy="masterLookupDetailsHeading"><span jhiTranslate="hrmsApplicationApp.masterLookup.detail.title">Master Lookup</span></h2>
+
+      <hr />
+
+      <jhi-alert-error></jhi-alert-error>
+
+      <jhi-alert></jhi-alert>
+
+      <dl class="row-md jh-entity-details">
+        <dt><span jhiTranslate="global.field.id">ID</span></dt>
+        <dd>
+          <span>{{ masterLookup.id }}</span>
+        </dd>
+        <dt><span jhiTranslate="hrmsApplicationApp.masterLookup.name">Name</span></dt>
+        <dd>
+          <span>{{ masterLookup.name }}</span>
+        </dd>
+        <dt><span jhiTranslate="hrmsApplicationApp.masterLookup.value">Value</span></dt>
+        <dd>
+          <span>{{ masterLookup.value }}</span>
+        </dd>
+        <dt><span jhiTranslate="hrmsApplicationApp.masterLookup.valueTwo">Value Two</span></dt>
+        <dd>
+          <span>{{ masterLookup.valueTwo }}</span>
+        </dd>
+        <dt><span jhiTranslate="hrmsApplicationApp.masterLookup.description">Description</span></dt>
+        <dd>
+          <span>{{ masterLookup.description }}</span>
+        </dd>
+        <dt><span jhiTranslate="hrmsApplicationApp.masterLookup.type">Type</span></dt>
+        <dd>
+          <span>{{ masterLookup.type }}</span>
+        </dd>
+        <dt><span jhiTranslate="hrmsApplicationApp.masterLookup.companyId">Company Id</span></dt>
+        <dd>
+          <span>{{ masterLookup.companyId }}</span>
+        </dd>
+        <dt><span jhiTranslate="hrmsApplicationApp.masterLookup.status">Status</span></dt>
+        <dd>
+          <span>{{ masterLookup.status }}</span>
+        </dd>
+        <dt><span jhiTranslate="hrmsApplicationApp.masterLookup.lastModified">Last Modified</span></dt>
+        <dd>
+          <span>{{ masterLookup.lastModified | formatMediumDatetime }}</span>
+        </dd>
+        <dt><span jhiTranslate="hrmsApplicationApp.masterLookup.lastModifiedBy">Last Modified By</span></dt>
+        <dd>
+          <span>{{ masterLookup.lastModifiedBy }}</span>
+        </dd>
+      </dl>
+
+      <button type="submit" (click)="previousState()" class="btn btn-info" data-cy="entityDetailsBackButton">
+        <fa-icon icon="arrow-left"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back">Back</span>
+      </button>
+
+      <button type="button" [routerLink]="['/master-lookup', masterLookup.id, 'edit']" class="btn btn-primary">
+        <fa-icon icon="pencil-alt"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit">Edit</span>
+      </button>
+    </div>
+  </div>
+</div>

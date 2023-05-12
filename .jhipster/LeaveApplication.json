@@ -1,0 +1,60 @@
+{
+  "applications": "*",
+  "changelogDate": "20230512141251",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "leave_application",
+  "fields": [
+    {
+      "fieldName": "leaveType",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "noOfDays",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "reason",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "formDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "toDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "leaveStatus",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "employeId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "companyId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "lastModified",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "lastModifiedBy",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "LeaveApplication",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceClass"
+}

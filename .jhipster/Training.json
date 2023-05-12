@@ -1,0 +1,68 @@
+{
+  "applications": "*",
+  "changelogDate": "20230512141326",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "training",
+  "fields": [
+    {
+      "fieldName": "trainingCost",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "startDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "endDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "trainingStatus",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "trainerId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "trainingTypeId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "departmentId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "employeeId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "companyId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "lastModified",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "lastModifiedBy",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "Training",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceClass"
+}

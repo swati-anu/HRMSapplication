@@ -1,0 +1,48 @@
+{
+  "applications": "*",
+  "changelogDate": "20230512141320",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "deduction",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "hasUnitCal",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "unitAmount",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "employeeId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "companyId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "lastModified",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "lastModifiedBy",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "Deduction",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceClass"
+}
